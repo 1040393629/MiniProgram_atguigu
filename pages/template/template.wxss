@@ -1,0 +1,64 @@
+.templateContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10rpx;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  padding: 5px 0;
+  margin: 20rpx 0 40rpx;
+}
+
+.avatar_data {
+  margin: 10rpx 0 20rpx 10rpx;
+}
+
+.templateAvatar {
+  width: 40rpx;
+  height: 40rpx;
+  vertical-align: middle;
+  padding-right: 10rpx;
+}
+
+.templateTime {
+  font-size: 32rpx;
+}
+
+.templateTitle {
+  font-weight: bold;
+  margin-bottom: 10rpx;
+}
+
+.templateImg {
+  width: 100%;
+  height: 400rpx;
+}
+
+.templateText {
+  font-size: 32rpx;
+  color: #666;
+  text-indent: 16px;
+  line-height: 28px;
+}
+
+.love_attention {
+  display: flex;
+  flex-direction: row;
+}
+
+.Star {
+  width: 32rpx;
+  height: 32rpx;
+  vertical-align: middle;
+}
+
+.attention {
+  width: 32rpx;
+  height: 32rpx;
+  vertical-align: middle;
+}
+
+.love_attention text {
+  font-size: 30rpx;
+  margin: 0 16rpx;
+  vertical-align: middle;
+}

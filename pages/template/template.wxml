@@ -1,0 +1,18 @@
+<template name="listTemplate">
+  <view class="templateContainer">
+    <view class="avatar_data">
+      <image class="templateAvatar" src="{{avatar}}"></image>
+      <text class="templateTime">{{date}}</text>
+    </view>
+    <text class="templateTitle">{{title}}</text>
+    <image class="templateImg" src="{{detail_img}}"></image>
+    <text class="templateText">{{detail_content}}</text>
+    <view class="love_attention">
+      <image class="Star" src="/images/icon/star.png"></image>
+      <text>88</text>
+      <image class="attention" src="/images/icon/view.png"></image>
+      <text>66</text>
+    </view>
+  </view>
+
+</template>

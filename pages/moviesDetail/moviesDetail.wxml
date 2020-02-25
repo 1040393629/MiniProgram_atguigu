@@ -1,0 +1,11 @@
+<!--pages/moviesDetail/moviesDetail.wxml-->
+<view class="movieContainer">
+  <image class="movieImg" src="{{moiveDetail.images.large}}"></image>
+  <text class="movie_title">{{ moiveDetail.title }}</text>
+  <view class="movie_detail">
+    <text>评分:{{ moiveDetail.rating.average }}</text>
+    <text class="movie_directior">导演:{{ moiveDetail.directors[0].name }}</text>
+    <text>主演:{{ movimoiveDetaileArr.casts[0].name }} {{ moiveDetail.casts[1].name }} {{ moiveDetail.casts[2].name }}</text>
+  </view>
+  <button>我要观影</button>
+</view>

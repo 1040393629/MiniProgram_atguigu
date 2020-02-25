@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="indexContainer">
+  <image class="avatarImg" src='{{ userInfo.avatarUrl }}'></image>
+  <button style='display:{{ isShow?"block":"none" }}' open-type="getUserInfo" bindgetuserinfo="handleUserInfo">用户授权登录</button>
+  <text>Hello {{ userInfo.nickName }}</text>
+  <text class="travel" bindtap="handleClick">开启小程序之旅</text>
+</view>
